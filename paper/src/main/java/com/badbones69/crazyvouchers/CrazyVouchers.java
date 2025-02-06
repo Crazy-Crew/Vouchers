@@ -11,7 +11,7 @@ import com.badbones69.crazyvouchers.commands.VoucherTab;
 import com.badbones69.crazyvouchers.listeners.VoucherClickListener;
 import com.badbones69.crazyvouchers.listeners.VoucherCraftListener;
 import com.badbones69.crazyvouchers.listeners.VoucherMiscListener;
-import com.badbones69.crazyvouchers.support.MetricsWrapper;
+import com.badbones69.crazyvouchers.support.FancyAnalytics;
 import com.ryderbelserion.core.api.enums.FileType;
 import com.ryderbelserion.paper.FusionApi;
 import com.ryderbelserion.paper.files.FileManager;
@@ -71,7 +71,7 @@ public class CrazyVouchers extends JavaPlugin {
 
         this.fileManager.init();
 
-        new MetricsWrapper(4536).start();
+        new FancyAnalytics().start();
 
         this.crazyManager = new CrazyManager();
         this.crazyManager.load();

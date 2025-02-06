@@ -10,10 +10,14 @@ project.version = rootProject.version
 repositories {
     maven("https://repo.extendedclip.com/content/repositories/placeholderapi/")
 
+    maven("https://repo.fancyplugins.de/releases/")
+
     maven("https://repo.oraxen.com/releases/")
 }
 
 dependencies {
+    implementation(libs.fancy.analytics)
+
     implementation(libs.fusion.paper)
 
     implementation(libs.nbt.api)
@@ -60,6 +64,7 @@ tasks {
         listOf(
             "com.ryderbelserion.fusion",
             "de.tr7zw.changeme.nbtapi",
+            "de.oliver.FancyAnalytics",
             "org.bstats",
             "ch.jalu"
         ).forEach {

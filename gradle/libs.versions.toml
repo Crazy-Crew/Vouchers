@@ -29,10 +29,8 @@ vault = "1.7.1"
 # Deprecated API
 nbtapi = "2.14.1"
 
+# Fusion API
 fusion = "0.16.1"
-
-# Vital API
-vital-paper = "1.0.6"
 
 # Common API
 jetbrains = "24.1.0"
@@ -59,13 +57,13 @@ kyori-api = { module = "net.kyori:adventure-api", version.ref = "adventure" }
 decent-holograms = { module = "com.github.decentsoftware-eu:decentholograms", version.ref = "decentholograms" }
 headdatabaseapi = { module = "com.arcaniax:HeadDatabase-API", version.ref = "headdatabaseapi" }
 itemsadder = { module = "com.github.LoneDev6:api-itemsadder", version.ref = "itemsadder" }
-fancy-holograms = { module = "de.oliver:FancyHolograms", version.ref = "fancyholograms" }
 placeholderapi = { module = "me.clip:placeholderapi", version.ref = "placeholderapi" }
 vault = { module = "com.github.MilkBowl:VaultAPI", version.ref = "vault" }
 oraxen = { module = "io.th0rgal:oraxen", version.ref = "oraxen" }
 
-# Vital API
-vital-paper = { module = "com.ryderbelserion.vital:paper", version.ref = "vital-paper" }
+# Fancy Plugins
+fancy-holograms = { module = "de.oliver:FancyHolograms", version.ref = "fancyholograms" }
+fancy-analytics = { module = "de.oliver.FancyAnalytics:api", version = "0.1.6" }
 
 fusion-paper = { module = "com.ryderbelserion.fusion:fusion-paper", version.ref = "fusion" }
 
